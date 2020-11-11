@@ -1,2 +1,2 @@
-# auto-check-lesson2
-авто проверка 2
+# auto-check-bot
+авто проверка всех заданий
