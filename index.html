@@ -4,10 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autotest-lesson2</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet" />
+
+    <title>Autotest</title>
 </head>
 
 <body>
+    <!-- autotest-lesson2 -->
     <dl>
         <dt>Тег span.</dt>
         <dd>Универсальный контейнер для текстового контента.</dd>
@@ -71,6 +75,345 @@
             </tr>
         </tbody>
     </table>
-</body>
 
+    <!-- autotest-Lesson3 -->
+    <!-- test4 l3 -->
+    <ol>
+        <li>У списка можно отменить оформление по умолчанию</li>
+        <li>У списка можно отменить оформление по умолчанию</li>
+    </ol>
+    <ul>
+        <li>У списка можно отменить оформление по умолчанию</li>
+        <li>У списка можно отменить оформление по умолчанию</li></ul>
+
+        <!-- test5 L3 -->
+<ol class="rules">
+    <li class="rule">Класс - основной селектор для оформления стилей</li>
+    <li class="rule">У класса более высокий приоритет, чем у тега</li>
+    <li class="rule">Избегай по возможности сложных селекторов, например сочетания тега и класса</li>
+    <li class="rule">Лучший селектор - это один класс. Но это не всегда возможно.</li>
+</ol>
+
+<!-- test6 L3 -->
+<ol class="rules">
+    <li class="common-rule first-rule">Класс - основной селектор для оформления стилей</li>
+    <li class="common-rule ">У класса более высокий приоритет, чем у тега</li>
+    <li class="common-rule">Избегай по возможности сложных селекторов, например сочетания тега и класса</li>
+    <li class="common-rule last-rule">Лучший селектор - это один класс. Но это не всегда возможно.</li>
+</ol>
+
+<!-- test7 L3 -->
+<button class="btn" type="button">Да</button>
+<button class="btn active" type="button">Нет</button>
+<a class="link" href="#">Ссылка 1</a>
+<a class="link active" href="#">Ссылка 2</a>
+
+<!-- test9 L3 -->
+<button class="btn" type="button">продолжить</button>
+<button class="btn" type="reset">по умолчанию</button>
+<button class="btn" type="submit">отправить</button>
+<a class="btn" href="./help.html">помощь</a>
+
+
+<!-- test10 L3 -->
+<ul>
+    <li>
+        <a class="link" href="./index.html">На главную</a>
+    </li>
+    <li>
+        <a class="link" href="./about.html">О нас</a>
+    </li>
+    <li>
+        <a class="link" href="./contats.html">Контакты</a>
+    </li>
+</ul>
+
+<ul>
+    <li>
+        <a class="link" href="https://www.google.com">Google</a>
+    </li>
+    <li>
+        <a class="link" href="https://developer.mozilla.org/ru/docs/web/css">MDN + CSS</a>
+    </li>
+    <li>
+        <a class="link" href="https://stackoverflow.com/questions/tagged/css">StackOverflow + CSS</a>
+    </li>
+</ul>
+
+<!-- test11 L3 -->
+<ul>
+    <li>
+        <a class="link" href="./index.html">На главную</a>
+    </li>
+    <li>
+        <a class="link" href="./about.html">О нас</a>
+    </li>
+    <li>
+        <a class="link" href="./contats.html">Контакты</a>
+    </li>
+</ul>
+
+<ul>
+    <li>
+        <a class="link" href="https://www.google.com">Google</a>
+    </li>
+    <li>
+        <a class="link" href="https://developer.mozilla.org/ru/docs/web/css">MDN + CSS</a>
+    </li>
+    <li>
+        <a class="link" href="https://stackoverflow.com/questions/tagged/css">StackOverflow + CSS</a>
+    </li>
+</ul>
+<!-- test12 L3 -->
+<ul>
+    <li>
+        <a class="link" href="./index.html">На главную</a>
+    </li>
+    <li>
+        <a class="link" href="./about-book.html">О книге</a>
+    </li>
+    <li>
+        <a class="link" href="./about-author.html">Об авторе</a>
+    </li>
+</ul>
+
+<ul>
+    <li>
+        <a class="link" href="https://www.google.com/">Google</a>
+    </li>
+    <li>
+        <a class="link" href="https://developer.mozilla.org/ru/docs/web/css">MDN + CSS</a>
+    </li>
+    <li>
+        <a class="link" href="https://stackoverflow.com/questions/tagged/css">StackOverflow + CSS</a>
+    </li>
+    </ul>
+<!-- test13 L3 -->
+<div class="warning" id="sending">Использование id в качестве селектора в большинстве случаев является плохой практикой.
+    Потому что приводят к дублированию кода и, как следствие, к излишней сложности кода.</div>
+
+    <!-- test14 L3 -->
+    <div class="warning" id="inline" style="background-color: orange; color: navy;">Инлайн стили нежелательно использовать из-за более высокого приоритета чем у
+        id, а также из-за сложности c поддержкой и переиспользованем кода.</div>
+<!-- test15 L3 -->
+<div class="warning" id="inline" style="background-color: orange; color: navy;">Использование !important крайне
+    нежелательно. Этот способ повысить приоритет до неизменяемого применяют обычно только для оформления предупреждений
+    или сообщений об ошибках приложения.</div>
+<!-- оформление текста теория -->
+<article class="post">
+    <h1 class="post-title">Lorem ipsum dolor sit amet</h1>
+    <p class="post-text">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati commodi,
+        veritatis nihil alias iste odit similique sit eius optio veniam, impedit
+        cumque fuga facere labore quo id necessitatibus quaerat rerum.Obcaecati
+        commodi, veritatis nihil alias iste odit similique sit eius optio veniam,
+        impedit cumque fuga facere labore quo id necessitatibus quaerat rerum.
+    </p>
+</article>
+<h1 class="title">Fusce posuere ligula elementum purus</h1>
+
+<pre>
+  А ты когда-то слушал тишину?
+  Как жаль, что ничего ты не услышал,
+  Лишь тронь её беззвучную струну,
+  И ты поймёшь, что можно даже тише.
+</pre>
+
+<pre>
+  А ты когда-то спорил с тишиной?
+  И не пытайся, я однажды спорил,
+  Как будто смыло штормовой волной,
+  Противоречия всех моих историй.
+</pre>
+
+<pre>
+  А ты когда-то видел тишину?
+  Как идёт дождь, или летают птицы,
+  А может видел ночью синеву,
+  Или улыбку на любимых лицах.
+</pre>
+
+<h1 class="title">Making the Web Beautiful!</h1>
+    
+<!-- test17 L3 -->
+<ul class="menu">
+    <li class="menu-item">
+        <a href="#" class="menu-link">Меню 1</a>
+    </li>
+    <li class="menu-item">
+        <a href="#" class="menu-link">Меню 2 ▼</a>
+        <ul class="sub-menu">
+            <li class="menu-item">
+                <a href="#" class="menu-link">Sub Меню 1</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Sub Меню 2 ▼</a>
+                <ul class="sub-menu">
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Sub Меню 1</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Sub Меню 2</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Sub Меню 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Sub Меню 3</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Sub Меню 4</a>
+            </li>
+        </ul>
+    </li>
+    <li class="menu-item">
+        <a href="#" class="menu-link">Меню 3</a>
+    </li>
+</ul>
+
+<!--test18 L3  -->
+<ul class="items">
+    <li class="item item-1">1-й сосед</li>
+    <li class="item item-2">2-й сосед</li>
+    <li class="item item-3">3-й сосед</li>
+    <li class="item item-4">4-й сосед</li>
+</ul>
+<!-- test22 L3 -->
+<ul class="list">
+    <li class="list-item">По умолчанию в браузере цвет текста - черный</li>
+    <li class="list-item"><a class="list-link" href="#">По умолчанию в браузере цвет ссылки - синий с подчеркиванием</a>
+    </li>
+    <li class="list-item">По умолчанию у списка `padding-left` равен `40px`</li>
+</ul>
+
+<!-- test22 L3 -->
+<div class="box">Белый текст на черном фоне.</div>
+<div class="box red">Белый текст на красном фоне.</div>
+<div class="box green">Белый текст на зеленом фоне.</div>
+<div class="box blue">Белый текст на синем фоне.</div>
+    
+<!-- test26 L3 -->
+<h2>h. s. lightness</h2>
+<div class="lightness lightness-100">100%</div>
+<div class="lightness lightness-75">75%</div>
+<div class="lightness lightness-50">50%</div>
+<div class="lightness lightness-25">25%</div>
+<div class="lightness lightness-0">0</div>
+
+<!-- test27 L3 -->
+<div class="container">
+    <div class="box opacity">Opacity</div>
+    <div class="box transparent">Transparent</div>
+</div>
+
+<!-- test28 L3-->
+<button data-color="rgba">rgba</button>
+<button data-color="hsla">hsla</button>
+<button data-color="hexa">hexa</button>
+
+<!-- test1 L4 -->
+<p>Свойство <em>text-indent</em> определяет размер отступа (пустого места) перед строкой в текстовом блоке. По умолчанию
+    это свойство управляет отступом только первой строки блока.</p>
+
+<!-- test2 L4 -->
+<div class="columns">
+    <p>CSS свойство <em>column-count</em> разбивает содержимое элемента на заданное число столбцов.
+    </p>
+    <p>Свойство CSS <em>column-width</em> устанавливает ширину столбца в многоколоночном макете. В контейнере будет
+        столько столбцов, сколько может поместиться. Если ширина контейнера уже указанного значения, ширина отдельного
+        столбца будет меньше, чем заявленная ширина столбца.</p>
+    <p>Свойство CSS <em>column-gap</em> устанавливает размер промежутка между столбцами элемента.
+    </p>
+</div>
+<!-- test3 l4 -->
+<div class="left">
+    <button>да</button>
+    <button>нет</button>
+    <button>отменить</button>
+</div>
+<div class="right">
+    <button>да</button>
+    <button>нет</button>
+    <button>отменить</button>
+</div>
+<div class="center">
+    <button>да</button>
+    <button>нет</button>
+    <button>отменить</button>
+</div>
+<div class="justify">
+    Строчные элементы ведут себя подобно буквам текста и к ним можно применять те же самые css правила. Например button
+    : <button>да</button>
+    <button>нет</button>
+    <button>отменить</button>. Такое поведение можно использовать для центрирования кнопок, разместив кнопку внутри
+    обертки и задав text-align: center родительскому блоку.
+</div>
+<!-- test4 L4 -->
+<p>Свойство CSS line-height устанавливает величину пространства между строками, например в тексте. </p>
+<!-- test5 L4 -->
+<div class="boxes">
+    <div class="box">t</div>
+    <div class="box box-48">o</div>
+    <div class="box box-72">p</div>
+</div>
+<div class="cards">
+    <div class="card"></div>
+    <div class="card card-48"></div>
+    <div class="card card-72"></div>
+</div>
+<div class="letter">
+    top
+</div>
+<!-- test8 L4 -->
+<div>
+    <div data-transform="none"><span>NoNe</span></div>
+    <div data-transform="uppercase"><span>uppercase</span></div>
+    <div data-transform="lowercase"><span>LOWERCASE</span></div>
+    <div data-transform="capitalize"><span>capitalize</span></div>
+</div>
+<!-- test9 L4 -->
+<div>
+    <div class="up" data-line="overline" data-style="wavy" data-color="red">
+        <span>Overline</span>
+    </div>
+    <div class="through" data-line="line-through" data-style="dashed" data-color="green">
+        <span>Line-through</span>
+    </div>
+    <div class="down" data-line="underline" data-style="solid" data-color="blue">
+        <span>Underline</span>
+    </div>
+    <div class="no" data-line="none">
+        <span>None</span>
+    </div>
+    <div class="combi" data-line="underline overline" data-style="double" data-color="grey">
+        <span>Combination</span>
+    </div>
+</div>
+<!-- test10 L4 -->
+<ol>
+    <li class="one" data-x="3px" data-y="3px" data-blur="2px" data-color="hsla(0, 0%, 0%, .5)">
+        CSS-свойство text-shadow добавляет тени к тексту и всем элементам text-decoration.
+    </li>
+    <li>К одному тексту можно применить несколько теней:
+        <span class="rings" data-colors="blue black red green">O</span>
+    </li>
+</ol>
+<!-- test12 L4 -->
+<ol class="items">
+    <li class="item item-less" data-letterspacing="-.1rem">
+        Свойство letter-spacing определяет межбуквенное расстояние в тексте.
+    </li>
+    <li class="item">
+        <p>CSS свойство letter-spacing наследуется.</p>
+    </li>
+    <li class="item item-normal" data-letterspacing="normal">
+        В отличие от значения 0, ключевое слово normal позволяет браузеру изменить расстояние между буквами для
+        выравнивания текста.
+    </li>
+</ol>
+
+</body>
 </html>
+
