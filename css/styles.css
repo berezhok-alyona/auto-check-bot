@@ -685,3 +685,110 @@ body {
 .box:nth-last-of-type(-n+3) {
   margin-bottom: 0;
 }
+
+/* lesson 6 */
+/* test1 L6 */
+.container {
+  width: 480px;
+  margin: auto;
+  padding: 15px;
+  background: burlywood;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 130px;
+  min-height: 75px;
+  background-color: teal;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+/* test2 L6 */
+.container {
+  width: 480px;
+  margin: auto;
+  padding: 15px 0;
+  background: burlywood;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 130px;
+  min-height: 75px;
+  background-color: teal;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* test3 L6 */
+.container {
+  width: 480px;
+  margin: auto;
+  padding: 15px 15px 0;
+  background: burlywood;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 130px;
+  min-height: 75px;
+  background-color: teal;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* test4 L6 
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 480px;
+  margin: auto;
+  padding: 15px;
+  background: burlywood;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+}
+
+.nav-menu_link {
+  margin: 0 15px;
+}
+
+/* test5 L6 */
+.box {
+  width: 130px;
+  min-height: 75px;
+  background-color: teal;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px
+}
+
+.box-left {
+margin-right: auto;
+}
